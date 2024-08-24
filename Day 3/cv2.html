@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .header h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+        .header .nav {
+            display: flex;
+            gap: 15px;
+        }
+        .header .nav a {
+            color: #333;
+            text-decoration: none;
+            font-size: 1em;
+        }
+        .header .nav a:hover {
+            text-decoration: underline;
+        }
+        .resume-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .resume-header h2 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .resume-header button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .main-content {
+            display: flex;
+        }
+        .profile-details {
+            width: 30%;
+            padding: 20px;
+            border-right: 1px solid #ddd;
+        }
+        .profile-details img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+        .profile-details h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        .profile-details p {
+            margin: 5px 0;
+            color: #555;
+        }
+        .about-me {
+            width: 70%;
+            padding: 20px;
+        }
+        .about-me h3 {
+            margin-top: 0;
+            font-size: 1.2em;
+        }
+        .about-me .details-table {
+            width: 100%;
+            margin-bottom: 20px;
+            border-collapse: collapse;
+        }
+        .about-me .details-table th, .about-me .details-table td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .about-me .details-table th {
+            background-color: #f9f9f9;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>CV</h1>
+        <div class="nav">
+            <a href="#"><i class="fas fa-user"></i> About Me</a>
+            <a href="#"><i class="fas fa-file-alt"></i> Resume</a>
+            <a href="#"><i class="fas fa-briefcase"></i> Portfolio</a>
+            <a href="#"><i class="fas fa-blog"></i> Blog</a>
+            <a href="#"><i class="fas fa-envelope"></i> Contact Me</a>
+        </div>
+    </div>
+    
+    <div class="resume-header">
+        <h2>Resume</h2>
+        <button>Edit Resume</button>
+    </div>
+    
+    <div class="main-content">
+        <div class="profile-details">
+            <img src="https://via.placeholder.com/150" alt="Profile Picture">
+            <h3>Professional Details</h3>
+            <p><strong>Name:</strong> John Doe</p>
+            <p><strong>Age:</strong> 38 Years</p>
+            <p><strong>Location:</strong> Rome, Italy</p>
+            <p><strong>Experience:</strong> 15 Years</p>
+            <p><strong>Degree:</strong> MBA</p>
+        </div>
+        
+        <div class="about-me">
+            <h3>About Me</h3>
+            <table class="details-table">
+                <tr>
+                    <th>Name</th>
+                    <td>John Doe</td>
+                    <th>Age</th>
+                    <td>38 Years</td>
+                </tr>
+                <tr>
+                    <th>Location</th>
+                    <td>Rome, Italy</td>
+                    <th>Experience</th>
+                    <td>15 Years</td>
+                </tr>
+                <tr>
+                    <th>Degree</th>
+                    <td>MBA</td>
+                    <th>Career Level</th>
+                    <td>Mid-Level</td>
+                </tr>
+                <tr>
+                    <th>Phone</th>
+                    <td>(800) 123-4567</td>
+                    <th>Fax</th>
+                    <td>(800) 123-4568</td>
+                </tr>
+                <tr>
+                    <th>E-Mail</th>
+                    <td>example@example.com</td>
+                    <th>Website</th>
+                    <td>example.com</td>
+                </tr>
+            </table>
+            
+            <h3>I'm Web Designer</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam.</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

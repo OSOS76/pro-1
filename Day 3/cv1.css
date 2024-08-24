@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+}
+.container {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color:#e9e7ed;
+}
+.header {
+    
+    margin-top: 40px;
+}
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+
+}
+.header p {
+    margin: 5px 0;
+    font-size: 1.2em;
+    color: gray;
+}
+.contact-info {
+    text-align: right;
+    margin-bottom: 20px;
+}
+.contact-info a {
+    display: block;
+    color: red;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.contact-info a:hover {
+    text-decoration: underline;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section h2 {
+    font-size: 1.5em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.skills, .technical{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.technical, .experience {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.skills div, .technical div, .experience div {
+    width: 30%;
+}
+.experience div {
+    width: 60%;
+}
+.experience div:last-child {
+    width: 30%;
+    text-align: right;
+}
+.skills div, .technical div {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+.skills div h3, .technical div h3 {
+    margin: 0 0 10px 0;
+}

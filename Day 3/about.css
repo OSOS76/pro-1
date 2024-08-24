@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
+}
+h1, h3 {
+    margin: 0.5em 0;
+}
+#desc, #courses, #move, #moods, #ni {
+    background: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 5px 300px rgba(6, 12, 166, 0.4);
+    box-shadow: 50% rgb(10, 28, 107);
+}
+
+    #desc{
+        height: 400px;
+
+    }
+
+    img{
+        width: 220px;
+        margin-top: -35px;
+         margin-left: 1150px;
+
+    }
+    #cs{
+        width: 600PX;
+        margin-left: 690px;
+        margin-top: -190px;
+    }
+    #yes{
+        margin-left:700px ;
+        margin-top: -300px;
+    }
+    #no{
+        margin-top: -800px;
+    
+    }
+#moods img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+a:hover {
+    text-decoration: underline;
+}
